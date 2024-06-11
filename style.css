@@ -1,0 +1,29 @@
+.botao {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: -5px 6px #00bbfa;
+  border: 3px solid #00bbfa;
+  color: #00bbfa;
+  font-weight: 400;
+  font-size: 1em;
+  transition: all ease-in 0.2s;
+  border-radius: 200px;
+}
+
+.botao:hover,
+.botao:focus {
+  background: #2cb6f2;
+  color: #FFF;
+  border-color: #2fc182;
+  box-shadow: none;
+}
+
+
+.principal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
